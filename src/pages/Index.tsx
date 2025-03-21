@@ -10,7 +10,6 @@ import { streamConversation, invokeConversation } from "@/services/apiService";
 import { Button } from "@/components/ui/button";
 import { AlertCircle, ExternalLink, RefreshCw, Code, Settings, Book } from "lucide-react";
 import { useNavigate, Link } from "react-router-dom";
-import BuildingsVisualization from "@/components/BuildingsVisualization";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import StreamDebugger from "@/components/StreamDebugger";
 
@@ -342,7 +341,6 @@ const Index = () => {
 
       {storyState === 'ready' && hasValidThreeJsContent && (
         <div className="relative w-full h-screen">
-          <BuildingsVisualization story={activeStory} isActive={storyState === 'ready'} />
           
           <div className="absolute top-0 left-0 w-full p-4 bg-black/50 text-white z-50 pointer-events-auto">
             <h2 className="text-lg font-bold">World's Tallest Buildings Visualization</h2>
