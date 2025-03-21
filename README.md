@@ -1,8 +1,22 @@
-# Welcome to your Lovable project
-
+# Interactive Storybook Creator
 ## Project info
 
-**URL**: https://lovable.dev/projects/59422591-d95f-4b68-98bf-eede72ed952f
+**LIVE VERCEL DEMO**: https://inquire-glider.vercel.app
+
+**LOVABLE PROJECT URL**: https://lovable.dev/projects/59422591-d95f-4b68-98bf-eede72ed952f
+
+**BACKEND REPO**: https://github.com/lucemia/story-backend
+
+Check out our demo video!
+
+https://github.com/user-attachments/assets/0e6e8186-8182-4d3c-bd9a-3634075702d1
+
+1. Enter a question in the chat box (preferably a space-related one or something that's relatively easy to do in three.js lul)
+2. Showes a spinning book(gpt-engineer's idea and i love it)
+3. Displays a steaming COT of our backend agent formulating their thoughts and plans
+4. (Just a ~Short~ wait) Then we'll show you all three generated chapters as links at the bottom (jump to 3:47 in our demo vid if it takes too long)
+5. Click on any of those links to open our story with 3D sketches in the background and some child-friendly info answering the question you've asked, along with a window showing our mascot giving a short lesson. (from 3:52)
+6. Go back and forth to browse different pages
 
 ## How can I edit this code?
 
