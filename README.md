@@ -18,6 +18,10 @@ https://github.com/user-attachments/assets/0e6e8186-8182-4d3c-bd9a-3634075702d1
 5. Click on any of those links to open our story with 3D sketches in the background and some child-friendly info answering the question you've asked, along with a window showing our mascot giving a short lesson. (from 3:52)
 6. Go back and forth to browse different pages
 
+### Some quirks
+
+- Needs ~3min to load our 3D character on the bottom left, so we decided to show the story links first when our three.js sketches are ready 
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
