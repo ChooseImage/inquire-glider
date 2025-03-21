@@ -3,7 +3,7 @@ import { tallestBuildingsStory } from '@/utils/dummyData';
 import { fetchEventSource } from '@microsoft/fetch-event-source';
 
 // Base URL for the API
-const BASE_API_URL = 'https://gtc---genv-opengpts-al23s7k26q-de.a.run.app';
+const BASE_API_URL = import.meta.env.VITE_BASE_API_URL;
 
 // List of more reliable CORS proxies
 const CORS_PROXIES = [
@@ -16,10 +16,10 @@ const CORS_PROXIES = [
 
 // Configuration for API behavior
 const API_CONFIG = {
-  LOCAL_MODE: false, // Set to false to enable real API calls
-  FALLBACK_TO_DUMMY: true, // Whether to fall back to dummy data if API fails
-  USE_CORS_PROXIES: true, // Whether to try CORS proxies
-  USE_EVENT_SOURCE: true // Whether to use fetchEventSource instead of fetch
+  LOCAL_MODE: import.meta.env.VITE_API_LOCAL_MODE === 'true',
+  FALLBACK_TO_DUMMY: import.meta.env.VITE_API_FALLBACK_TO_DUMMY === 'true',
+  USE_CORS_PROXIES: import.meta.env.VITE_API_USE_CORS_PROXIES === 'true',
+  USE_EVENT_SOURCE: import.meta.env.VITE_API_USE_EVENT_SOURCE === 'true'
 };
 
 export interface StreamRequest {
