@@ -422,8 +422,8 @@ const Index = () => {
             <div className="text-muted-foreground">
               <p>Try asking about:</p>
               <ul className="mt-2 inline-flex flex-col gap-1">
-                <li>"What are the tallest buildings in the world?"</li>
-                <li>"How do volcanoes work?"</li>
+                <li>"How many planets are there in our solar system?"</li>
+                <li>"how far is the sun?"</li>
                 <li>"Tell me about the solar system"</li>
               </ul>
             </div>
